@@ -135,7 +135,9 @@
                 </div>
             </div>
         </div>
-               
+
+        <div class="row" id="gamesContainer">            
+        </div>
     </div>
 @endsection
 
