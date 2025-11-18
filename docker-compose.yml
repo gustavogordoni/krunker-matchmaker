@@ -9,9 +9,9 @@ services:
         working_dir: /var/www/
         volumes:
             - ./:/var/www
-        depends_on:
+        #   depends_on:
             #     - redis
-            - db
+            #     - db
         networks:
             - laravel
 
