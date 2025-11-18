@@ -47,20 +47,20 @@ services:
     #         - laravel
 
     # db postgres
-    db:
-        container_name: postgres
-        image: postgres:17
-        restart: unless-stopped
-        environment:
-            POSTGRES_DB: ${DB_DATABASE:-laravel}
-            POSTGRES_USER: ${DB_USERNAME:-username}
-            POSTGRES_PASSWORD: ${DB_PASSWORD:-userpass}
-        volumes:
-            - ./.docker/postgres/dbdata:/var/lib/postgresql/data
-        ports:
-            - "5433:5432"
-        networks:
-            - laravel
+    # db:
+    #     container_name: postgres
+    #     image: postgres:17
+    #     restart: unless-stopped
+    #     environment:
+    #         POSTGRES_DB: ${DB_DATABASE:-laravel}
+    #         POSTGRES_USER: ${DB_USERNAME:-username}
+    #         POSTGRES_PASSWORD: ${DB_PASSWORD:-userpass}
+    #     volumes:
+    #         - ./.docker/postgres/dbdata:/var/lib/postgresql/data
+    #     ports:
+    #         - "5433:5432"
+    #     networks:
+    #         - laravel
 
     # PHPMyAdmin
     # phpmyadmin:
