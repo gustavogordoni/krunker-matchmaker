@@ -45,6 +45,12 @@ composer install
 php artisan key:generate
 ```
 
+### 8. Rode as migrations
+
+```sh
+php artisan key:generate
+```
+
 ---
 
 ## Acesse a plataforma
