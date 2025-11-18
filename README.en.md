@@ -36,6 +36,22 @@ It then processes and filters the returned JSON, displaying only the matches tha
 
 ---
 
+## Main screens
+
+<div align="center"><img src="public/assets/filters.png" width="75%" /></div>
+
+<details>
+<summary>View more screens</summary>
+<br />    
+    <h3 align="center">Returned Matches</h3>
+    <div align="center"><img src="public/assets/return.png" width="75%" /></div>
+    <br />
+    <h3 align="center">Full Page</h3>
+    <div align="center"><img src="public/assets/fullscreen.png" width="75%" /></div>
+</details>
+
+---
+
 ## Requirements
 
 You can run the project in two ways:
