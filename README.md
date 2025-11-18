@@ -4,6 +4,8 @@ Este projeto é uma aplicação desenvolvida em **Laravel** que consulta a API d
 
 A aplicação funciona como um **sistema de busca**, permitindo filtrar as partidas por região, modo de jogo, quantidade de jogadores, tempo restante e outros critérios. Isso facilita encontrar rapidamente partidas abertas ou com características específicas.
 
+[English Version](https://github.com/gustavogordoni/krunker-matchmaker/blob/main/README.en.md)
+
 ---
 
 ## Propósito do Projeto
