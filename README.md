@@ -1,21 +1,70 @@
 # Krunker Matchmaker
 
-## Processo de instalação
-Para instalar o sistema, você apeanas necessita possuir o [Docker](https://www.docker.com/), com o Docker Compose ativo.
-Caso não tenha, é necessário ter o [PHP](https://www.php.net/) na versão `^8.2` e o [Composer](https://getcomposer.org/)
+Este projeto é uma aplicação desenvolvida em **Laravel** que consulta a API do jogo **Krunker** para obter informações sobre as partidas que estão ocorrendo em tempo real.
 
-### 1. Clone o Repositório
+A aplicação funciona como um **sistema de busca**, permitindo filtrar as partidas por região, modo de jogo, quantidade de jogadores, tempo restante e outros critérios. Isso facilita encontrar rapidamente partidas abertas ou com características específicas.
+
+---
+
+## Propósito do Projeto
+
+O objetivo principal do **Krunker Matchmaker** é oferecer uma interface para que jogadores possam:
+
+* Visualizar partidas ativas nos servidores;
+* Aplicar filtros para encontrar partidas ideais;
+* Acessar rapidamente o jogo via link;
+
+Os filtros incluem:
+* Regiões
+* Modos de jogo
+* Mínimo/máximo de jogadores
+* Tempo restante
+
+O sistema coleta dados diretamente do endpoint:
+
+```
+https://matchmaker.krunker.io/game-list?hostname=krunker.io
+```
+
+Em seguida, processa e filtra o JSON retornado, exibindo apenas as partidas desejadas.
+
+---
+
+## Requisitos
+
+Você pode rodar o projeto de duas formas:
+
+### Opção 1 — Usando Docker (Recomendado)
+
+Necessário ter:
+
+* **Docker**
+* **Docker Compose**
+
+### Opção 2 — Sem Docker
+
+Necessário ter:
+
+* **PHP 8.2+**
+* **Composer**
+
+---
+
+## Processo de Instalação
+
+### 1. Clone o repositório
 
 ```sh
 git clone https://github.com/gustavogordoni/krunker-matchmaker.git krunker-matchmaker
 ```
 
 ### 2. Acesse o diretório
+
 ```sh
 cd krunker-matchmaker
 ```
 
-### 3. Crie o arquivo .env
+### 3. Crie o arquivo `.env`
 
 ```sh
 cp .env.example .env
@@ -53,6 +102,16 @@ php artisan migrate
 
 ---
 
-## Acesse a plataforma
+## Acessando a plataforma
 
-Abra no navegador: [http://localhost:8000](http://localhost:8000)
+Abra no navegador:
+
+```
+http://localhost:8000
+```
+
+---
+
+## Contribuições
+
+Sinta-se à vontade para abrir PRs com melhorias ou correções.
