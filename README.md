@@ -37,16 +37,16 @@ Em seguida, processa e filtra o JSON retornado, exibindo apenas as partidas dese
 
 ## Principais telas
 
-<div align="center"><img src="public/assets/filters.png" width="65%" /></div>
+<div align="center"><img src="public/assets/filters.png" width="75%" /></div>
 
 <details>
 <summary>Veja mais telas</summary>
 <br />    
     <h3 align="center">Partidas retornadas</h3>
-    <div align="center"><img src="public/assets/return.png" width="65%" /></div> 
+    <div align="center"><img src="public/assets/return.png" width="75%" /></div> 
     <br />
     <h3 align="center">Página completa</h3>
-    <div align="center"><img src="public/assets/fullscreen.png" width="65%" /></div>     
+    <div align="center"><img src="public/assets/fullscreen.png" width="75%" /></div>     
 </details>
 
 ---
