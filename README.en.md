@@ -1,5 +1,8 @@
 # Krunker Matchmaker
 
+[![GitHub last commit](https://img.shields.io/github/last-commit/gustavogordoni/krunker-matchmaker?color=purple)](https://github.com/gustavogordoni/krunker-matchmaker/commits/)
+[![License](https://img.shields.io/github/license/gustavogordoni/krunker-matchmaker)](https://github.com/gustavogordoni/krunker-matchmaker/blob/main/LICENSE)
+
 This project is an application built with **Laravel** that queries the **Krunker** game API to retrieve real-time information about active matches.
 
 The application works as a **search system**, allowing users to filter matches by region, game mode, player count, remaining time, and other criteria. This makes it easy to quickly find open matches or games with specific characteristics.
