@@ -4,6 +4,8 @@ This project is an application built with **Laravel** that queries the **Krunker
 
 The application works as a **search system**, allowing users to filter matches by region, game mode, player count, remaining time, and other criteria. This makes it easy to quickly find open matches or games with specific characteristics.
 
+[Versão em Português](https://github.com/gustavogordoni/krunker-matchmaker/blob/main/README.md)
+
 ---
 
 ## Purpose of the Project
